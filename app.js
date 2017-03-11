@@ -38,7 +38,7 @@ intentDialog.matches('Greeting', '/greetingDialog');
 intentDialog.matches('Size', '/sizeDialog')
 intentDialog.matches('Distance', '/distanceDialog');
 intentDialog.matches('Life', 'lifeDialog');
-intentDialog.matches('Dark', 'darkSoulsDialog');
+intentDialog.matches('Dark Souls', 'darkSoulsDialog');
 
 bot.dialog('/greetingDialog', 
     function(session)
